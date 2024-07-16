@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(156, 103, 205);
+}
+
+.main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+    
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+form input, form button{
+   font-size: 24px;
+   margin-right: 10px;
+   padding: 5px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(255, 243, 225);
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(57, 64, 67);
+}
+
+table td{
+    text-align: center;
+    font-size: 26px;
+   padding: 16px 0;
+   border-bottom: 1px solid rgb(57, 64, 67);
+}
